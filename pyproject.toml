@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "check-plagiarism"
+version = "0.1.0"
+description = "Compare debruijn, agc and gpred programs"
+authors = ["Amine  GHOZLANE <amine.ghozlane@pasteur.fr>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycode-similar = "^1.4"
+matplotlib = "^3.8.2"
+seaborn = "^0.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
